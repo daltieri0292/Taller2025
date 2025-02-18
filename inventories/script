@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Uso de disco"
+df -h
+echo "======"
+echo "Uptime"
+cat /proc/uptime
+echo "====="
+echo "Estado de SELinux"
+sestatus
+echo "=FIN="
+"
